@@ -1,0 +1,78 @@
+
+@import url("http://www.fontstatic.com/f=cocon-next-arabic");
+.header {
+font-family: 'cocon-next-arabic';
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:LightGray;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:LightGray;
+  margin-right: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  padding: 35px 20px;
+ font-size:20px;
+}
+.nav-items a:hover{
+background:Gainsboro;}
+
+body {
+ background-image: url("background.JPEG ");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+pre { 
+font-family: 'cocon-next-arabic';
+font-size: 23px;
+text-align:right;
+ padding: 10px;
+  margin: 20px;
+color:Teal;
+
+}
+
+h1{ 
+text-shadow: 3px 4px Gainsboro;
+font-size:40px;
+color: black; 
+text-align:right;
+font-family: 'cocon-next-arabic';
+padding: 10px;
+  margin: 20px;
+float: right;}
+span { padding: 5px;
+  margin: 10px;
+text-align:right;
+float: right;}
+
+ul {
+ padding: 5px;
+  margin: 10px;
+text-align:right;
+}
+ li {
+color: MediumVioletRed; 
+font-family: 'cocon-next-arabic';
+list-style-type:none;
+font-size: 40px;
+background-color:#FFB6C1;
+ padding: 5px;
+  margin: 5px;
+text-align:right;
+}
+div{font-family: 'cocon-next-arabic';font-size:35px;}
+p{font-family: 'cocon-next-arabic'; font-size:20px;}
+
+a{color:orange; font-size:25px;}
+
+

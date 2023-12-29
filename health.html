@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ 
+  <header class="header">
+	<img class="logo" src="2.png" alt="error" width="170" height="100">
+    <nav class="nav-items" >
+      <a href="contact.html">تواصل معنا</a>
+      <a href="purchase.html">المستلزمات</a>
+       <a href="health.html">الرعاية الصحية</a>
+	   <a href="infoo.html">المعلومات</a>
+	   <a href="HOME.html">الرئيسية</a>
+    </nav>
+  </header>
+ <link rel="stylesheet" href="healthcss.css">
+ <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 color: blue;">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card-wrap{
+    height: 8cm;
+    width: 10cm;
+    border-radius: 1cm;
+    perspective: 1000px;
+}
+.card{
+    height: inherit;
+    width: inherit;
+    position: relative;
+    transition: transform 2s;
+    transform-style: preserve-3d; 
+}
+.card-front,.card-back{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    backface-visibility: hidden;
+    border-radius: 0.37rem;
+}
+.card-front{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bbdade;
+}
+.card-logo img{
+  width: 290px;
+}
+.card-back{
+    background-color: #D3D3D3;
+    transform: rotateY(180deg);
+}
+.card-back .user img{
+    width: 35%;
+    float: left;
+    border-radius: 50%;
+    margin: 1.6rem 1.1rem;
+   
+}
+.card-wrap:hover .card{
+    transform: rotateY(180deg);
+}
+.user-info{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #292F33;
+    padding: 1.6rem 1.1rem;
+}
+.user-info .username{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(2, 68, 99);
+}
+.user-info .user-bio{
+    font-size: 1rem;
+    margin: 1.1rem 0;
+}
+
+  </style>
+<title>صحة</title>
+</head>
+<body>
+
+<h1> صحة حيوانك الأيف</h1>
+<br><br><br><br>
+<pre style="color:gray; font-size:25px; text-align:center;">اليك بعض ما يمكن ان يصيب حيوانك الاليف من اعراض طارئة فكيف تتبع التصرف الصحيح بسرعة ومرونة
+ ملاحظة مهمة : هذه حالات عارضة ان دعت الحاجة الى زيارة طبيب مختص فبادر بذلك فورا⚠ </pre>
+
+
+<ul>
+  <li>القطط</li>
+  <span>  
+  <pre>	ضع جدولاً للرعاية البيطرية 🔰
+ اجعل لقطتك زيارة دورية منتظمة الى العيادة البيطرية
+ 
+	لاحظ التغيرات السلوكية للقط 🔰
+ان لاحظ تصرف غير طبيعي او حالات كسل مفاجئة قد يكون مؤشر على وعكة صحية ما
+
+	لا تتجاهل صحة أسنانها  🔰
+حالة الاسنان والاظافر مؤشر للحالة الصحية احرص على العناية بها وبنظفاتها
+</pre> </span> <br>
+  <div class="blog"><a href=""></a></div>
+    <div class="card-wrap">
+    <div class="card">
+        <div class="card-front">
+            <div class="card-logo">
+               <img src="cat.JPEG" alt="cat">
+            </div>
+        </div>
+        <div class="card-back">
+            <div class="user">
+               
+            </div>
+            <div class="user-info">
+                <div class="username">صحة قطتك🐱</div>
+                <div class="user-bio">
+                    <p> اكثر المشكلات الصحية شيوعا في القطط<br> موقع مفيد يجمع بعض من اهم امراض القطط <br>
+                      <br>
+             
+                </div>
+                 <p> 
+	  <a href="https://pets.webmd.com/cats/6-most-common-cat-health-problems">6 Most Common Cat Health Problems</a></p>
+          </div>
+        </div>
+    </div>
+    </div>
+	<br>
+  <li>الكلاب</li>
+  <span>
+  <pre>
+كشف طبى  🔰
+الكشف الطبي على الكلب عند شرائه للاطمئنان على حالته الصحية مسبقا 
+
+التطعيمات الدورية 🔰
+وهى الخماسى والسداسى والسباعى والبدء فيها عند بلوغ عمر الكلب 45 يوما والمواظبة عليها
+
+الأطعمة الصحية 🔰
+طعام بمكونات جيدة وكميات محددة في اوقات منظمة
+</pre>
+  </span>
+	<br>
+<div class="blog"><a href=""></a></div>
+  <div class="card-wrap">
+    <div class="card">
+        <div class="card-front">
+            <div class="card-logo">
+              <img src="dog.JPEG" alt="dog">
+            </div>
+        </div>
+
+        <div class="card-back">
+            <div class="user">
+               
+            </div>
+            <div class="user-info">
+                <div class="username">🐶صحة كلبك</div>
+                <div class="user-bio">
+                    <p>موقع مفيد يجمع بعض اكثر امراض الكلاب شيوعا 
+             
+                </div>
+                	 <p> 
+	  <a href="https://www.pawlicy.com/blog/dog-health-issues/"> Dog Health Issues </a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+<br>
+  <li>الطيور </li>
+  <span>
+  <pre>
+ملاحظة درجة حرارة وطريقة التنفس  🔰
+من اهم مؤشرات صحة العصافير و ان زادت او نقصت كثيرا عن الحد الطبيعي تؤدي للوفاة  
+
+نظافة القفص والالعاب  🔰
+ خطوة بالغة الاهمية عليك الاهتمام بنظافة القفص وازالة الريش والطعام الزائد باستمرار
+ 
+ البيئة الخارجية 🔰
+ مثل الانارة والهواء الطلق المتجدد في الغرفة 
+</pre>
+  </span>
+	<br>
+<div class="blog"><a href=""></a></div>
+  <div class="card-wrap">
+    <div class="card">
+        <div class="card-front">
+            <div class="card-logo">
+               <img src="bird.JPEG" alt="bird" />
+            </div>
+        </div>
+
+        <div class="card-back">
+            <div class="user">
+               
+            </div>
+            <div class="user-info">
+                <div class="username">صحة طيورك 🕊</div>
+                <div class="user-bio">
+                    <p>
+					كيف تهتم بصحة طيورك <br> واشهر المشكلات الصحية التي تواجهها 
+             
+                </div>
+                 <a href="https://www.thesprucepets.com/common-diseases-in-pet-birds-390443"> Common Diseases in Pet Birds</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+	<br>
+</ul>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"
+charset="UTF-8"/>
+<style>
+@import url("http://www.fontstatic.com/f=cocon-next-arabic");
+body {
+
+ 
+  font-family: 'cocon-next-arabic';
+  text-align:center;
+  background-image: url("soa.jpg");
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+font-family: 'cocon-next-arabic';
+  width:40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] 
+{text-align:center;
+font-family: 'cocon-next-arabic';
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px 40px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+h2 {font-family: 'cocon-next-arabic'; font-size:45px; text-shadow: 3px 4px gray;}
+label{font-family: 'cocon-next-arabic'; font-size:25px; text-align:rigt;}
+pre{font-family: 'cocon-next-arabic'; text-align:rigt;}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  
+}
+.header {
+font-family: 'cocon-next-arabic';
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  background-color:LightGray;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  background-color:LightGray;
+  margin-right: 20px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  padding: 35px 20px;
+ font-size:20px;
+}
+.nav-items a:hover{
+background:Gainsboro;}
+html{ 
+ padding:0;
+ margin:0;
+}
+</style>
+  <header class="header">
+	<img class="logo" src="2.png" alt="error" width="170" height="100" >
+    <nav class="nav-items" >
+      <a href="contact.html">تواصل معنا</a>
+      <a href="purchase.html">المستلزمات</a>
+       <a href="health.html">الرعاية الصحية</a>
+	   <a href="infoo.html">المعلومات</a>
+	   <a href="HOME.html">الرئيسية</a>
+    </nav>
+  </header>
+</head>
+<body >
+    <h2>تواصل معنا</h2>
+ 
+      <form action="/action_page.php"> 
+        <label for="fname"><pre>الاسم الثلاثي :                                                          * </pre></label>
+        <input type="text" id="fname" name="firstname" placeholder="خالد عبد الرحن.."> 
+        <label for="lname"><pre>رقم الجوال :                                                           * </pre></label> 
+        <input type="text" id="lname" name="lastname" placeholder="05555.."> <br>
+        <label for="country"><pre>المدينة :                                                             * </pre></label>
+        <select id="country" name="country">
+          <option value="رياض">رياض</option>
+          <option value="تبوك">تبوك</option>
+          <option value="جده">جده</option>
+        </select><br><br>
+        <label for="subject"><pre>رسالتك :                                                             * </pre></label>
+        <textarea id="subject" name="subject" placeholder=" اكتب ملاحظتك او رسالتك.." style="height:170px"></textarea><br><br>
+        <input type="submit" value="إرسال" style="text-align:center" size="30px">
+      </form>
+
+
+</body>
+</html>
+
+
+
+
